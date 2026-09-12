@@ -1,0 +1,19 @@
+{
+  "releases": [
+    {
+      "app_id": "tasks",
+      "display_name": "tasks",
+      "version": "0.0.0",
+      "platform": "linux-x86_64",
+      "entrypoint": "Tasks.x86_64",
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/tasks-v0.0.0/tasks-linux-x86_64.zip",
+      "sha256": "dba03dad27f6829a17d1592a464e6a2deda06d05327b897893d13a721a30344d",
+      "artifact_types": ["tasks.project", "tasks.task"],
+      "capabilities": [
+        "heartspace.context",
+        "project.sync",
+        "tasks.manage"
+      ]
+    }
+  ]
+}
