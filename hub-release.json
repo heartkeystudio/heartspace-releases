@@ -1,0 +1,22 @@
+{
+  "app_id": "heartspace-hub",
+  "display_name": "HeartSpace Hub",
+  "version": "0.8.0-alpha.5",
+  "channel": "alpha",
+  "minimum_supported_app_catalog": 1,
+  "platforms": [
+    {
+      "platform": "linux-x86_64",
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/hub-v0.8.0.alpha.5/hub-linux-x86_64-v0.8.0-alpha.5.zip",
+      "package_size_bytes": 63000000,
+      "sha256": "e87df9efba0ae65214015e383bf8d402c17e60f284c4b302e1f5c3951ec4de8d"
+    },
+    {
+      "platform": "windows-x86_64",
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/hub-v0.8.0.alpha.5/hub-windows-x86_64-v0.8.0-alpha.5.zip",
+      "package_size_bytes": 69800000,
+      "sha256": "b6dd91a6035f88e67f70a7e1b1e3497d8768fbd8472077edb004c6f874020acc"
+    }
+  ],
+  "release_notes": "The first version uploaded for Heartkey's QA."
+}
