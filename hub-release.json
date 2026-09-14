@@ -1,21 +1,21 @@
 {
   "app_id": "heartspace-hub",
   "display_name": "HeartSpace Hub",
-  "version": "0.8.0-alpha.5",
+  "version": "0.8.0-alpha.6",
   "channel": "alpha",
   "minimum_supported_app_catalog": 1,
   "platforms": [
     {
       "platform": "linux-x86_64",
-      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/hub-v0.8.0.alpha.5/hub-linux-x86_64-v0.8.0-alpha.5.zip",
-      "package_size_bytes": 63000000,
-      "sha256": "e87df9efba0ae65214015e383bf8d402c17e60f284c4b302e1f5c3951ec4de8d"
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/hub-v0.8.0-alpha.6/hub-linux-x86_64-v0.8.0-alpha.6.zip",
+      "package_size_bytes": 66121074,
+      "sha256": "63904ad77a6d8a7168128717a70ebbbe34d0fe2580cf9a18b713db0ca2c42139"
     },
     {
       "platform": "windows-x86_64",
-      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/hub-v0.8.0.alpha.5/hub-windows-x86_64-v0.8.0-alpha.5.zip",
-      "package_size_bytes": 69800000,
-      "sha256": "b6dd91a6035f88e67f70a7e1b1e3497d8768fbd8472077edb004c6f874020acc"
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/hub-v0.8.0-alpha.6/hub-windows-x86_64-v0.8.0-alpha.6.zip",
+      "package_size_bytes": 73227718,
+      "sha256": "3161b2ec00bb3569384823bb0a5609f3af10c899f9fd7c1aa92c684d9d95243a"
     }
   ],
   "release_notes": "The first version uploaded for Heartkey's QA."
