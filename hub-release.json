@@ -14,7 +14,7 @@
     },
     {
       "platform": "windows-x86_64",
-      "entrypoint": "data/hub.exe"
+      "entrypoint": "data/hub.exe",
       "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/hub-v0.8.0-alpha.6/hub-windows-x86_64-v0.8.0-alpha.6.zip",
       "package_size_bytes": 73228345,
       "sha256": "ca40892da434b226b0275f224b063c6c204ee26fb038998b3a87b2eaa2b8f49d"
