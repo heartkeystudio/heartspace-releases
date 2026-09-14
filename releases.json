@@ -1,6 +1,20 @@
 {
   "releases": [
     {
+  	  "app_id": "canvas",
+  	  "display_name": "Canvas",
+  	  "version": "0.5.0-alpha.1",
+  	  "platform": "linux-x86_64",
+  	  "entrypoint": "Canvas.x86_64",
+  	  "minimum_hub_version": "0.8.0-alpha.3",
+  	  "artifact_types": ["sprite", "animation", "rig"],
+  	  "capabilities": ["project.read", "artifact.write", "asset.read", "asset.write"],
+  	  "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/canvas-v0.5.0-alpha.1/canvas-linux-x86_64-v0.5.0-alpha.1.zip",
+  	  "package_size_bytes": 29.740.757,
+  	  "sha256": "6fc8f023125a653326f9281370bdc3c00b7da28a9e3d5cd4776c5bcd76c70a30",
+  	  "release_notes": "Primeira alpha de integração Canvas + Beats + States."
+  	},
+    {
       "app_id": "tasks",
       "display_name": "tasks",
       "version": "0.0.0",
