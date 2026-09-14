@@ -1,7 +1,7 @@
 {
   "app_id": "heartspace-hub",
   "display_name": "HeartSpace Hub",
-  "version": "0.8.0-alpha.6",
+  "version": "0.8.0-alpha.7",
   "channel": "alpha",
   "minimum_supported_app_catalog": 1,
   "platforms": [
