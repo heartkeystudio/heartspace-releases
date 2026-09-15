@@ -8,9 +8,9 @@
     {
       "platform": "linux-x86_64",
       "entrypoint": "data/hub.x86_64",
-      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/hub-v0.8.1.alpha.1/hub-linux-x86_64-v0.8.1.alpha.2.zip",
-      "package_size_bytes": 66130597,
-      "sha256": "67b23ab285f6d03bf98be3230c32d8c6e387f8b311f080315904e4447d95fe94"
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/hub-v0.8.1.alpha.2/hub-linux-x86_64-v0.8.1.alpha.2.zip",
+      "package_size_bytes": 65314213,
+      "sha256": "53d1036bf6c8df74c42f8ff372a1b0f4c25844f9ff625afb4f254d3956b56c5e"
     },
     {
       "platform": "windows-x86_64",
