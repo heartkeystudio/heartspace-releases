@@ -15,6 +15,20 @@
   	  "release_notes": "Primeira alpha de integração Canvas + Beats + States."
   	},
     {
+  	  "app_id": "states",
+  	  "display_name": "States",
+  	  "version": "0.4.0.alpha.1",
+  	  "platform": "linux-x86_64",
+  	  "entrypoint": "states/states.x86_64",
+  	  "minimum_hub_version": "0.8.0-alpha.3",
+  	  "artifact_types": ["state_machine", "state_graph"],
+  	  "capabilities": ["project.read", "artifact.write"],
+  	  "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/states-v0.4.0.alpha.1/states-linux-x86_64-v0.4.0.alpha.1.zip",
+  	  "package_size_bytes": 28388039,
+  	  "sha256": "bd0b64c3f3ea214c381f2f33c1957a348b4020f61fbacdeaf346167126997c38",
+  	  "release_notes": "Alpha de state machines vinculadas aos artefatos do Canvas e Beats."
+  	},
+    {
       "app_id": "tasks",
       "display_name": "tasks",
       "version": "0.0.0",
