@@ -78,6 +78,7 @@
       "platform": "linux-x86_64",
       "entrypoint": "travels/travels.x86_64",
       "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/travels-v0.1.0.alpha.1/travels-linux-x86_64-v0.1.0.alpha.1.zip",
+      "package_size_bytes": 28751414,
       "sha256": "08e2ed22cd69d1df39544077522a7d1825fbb11bdc2cc4bb785c553640845072",
       "minimum_hub_version": "0.8.0-alpha.7",
       "artifact_types": ["map", "tileset", "world_layout", "map_export"],
