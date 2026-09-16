@@ -15,6 +15,34 @@
   	  "release_notes": "Primeira alpha de integração Canvas + Beats + States."
   	},
     {
+  	  "app_id": "beats",
+  	  "display_name": "Beats",
+  	  "version": "0.4.0-alpha.1",
+  	  "platform": "linux-x86_64",
+  	  "entrypoint": "beats/Beats.x86_64",
+  	  "minimum_hub_version": "0.8.0-alpha.3",
+  	  "artifact_types": ["audio_event", "audio_bank", "audio_parameter"],
+  	  "capabilities": ["project.read", "artifact.write", "asset.read", "asset.write"],
+  	  "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/beats-v0.4.0.alpha.1/beats-linux-x86_64-v0.4.0.alpha.1.zip",
+  	  "package_size_bytes": 39305526,
+  	  "sha256": "6258093022a50a1eff544d5fba38054fc1e3d3a214fb6af16e70fb02d4befcae",
+  	  "release_notes": "Alpha de eventos, bancos e vínculo com animações."
+  	},
+  	{
+  	  "app_id": "beats",
+  	  "display_name": "Beats",
+  	  "version": "0.4.0-alpha.1",
+  	  "platform": "windows-x86_64",
+  	  "entrypoint": "beats/Beats.exe",
+  	  "minimum_hub_version": "0.8.0-alpha.3",
+  	  "artifact_types": ["audio_event", "audio_bank", "audio_parameter"],
+  	  "capabilities": ["project.read", "artifact.write", "asset.read", "asset.write"],
+  	  "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/beats-v0.4.0.alpha.1/beats-windows-x86_64-v0.4.0.alpha.1.zip",
+  	  "package_size_bytes": 50176822,
+  	  "sha256": "113b09103e1ab026b59a562ace172da751bad3445892a4f41fd71dc5aa499752",
+  	  "release_notes": "Alpha de eventos, bancos e vínculo com animações."
+  	},
+    {
   	  "app_id": "states",
   	  "display_name": "States",
   	  "version": "0.4.0.alpha.1",
