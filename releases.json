@@ -73,18 +73,30 @@
     {
       "app_id": "tasks",
       "display_name": "tasks",
-      "version": "0.0.0",
+      "version": "0.8.0.alpha.1",
       "platform": "linux-x86_64",
-      "entrypoint": "tasks-linux-x86_64/tasks.x86_64",
-      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/tasks-v0.0.0/tasks-linux-x86_64.zip",
-      "sha256": "dba03dad27f6829a17d1592a464e6a2deda06d05327b897893d13a721a30344d",
+      "entrypoint": "tasks/tasks.x86_64",
       "artifact_types": ["tasks.project", "tasks.task"],
-      "capabilities": [
-        "heartspace.context",
-        "project.sync",
-        "tasks.manage"
-      ]
+      "capabilities": ["project.read", "task.write"],
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/tasks-v0.8.0.alpha.1/tasks-linux-x86_64-v0.8.0.alpha.1.zip",
+      "package_size_bytes": 58050784,
+      "sha256": "26ceaab337bdc9c8c57a0c98726a3c5b952191d1ad331994d95599b087757702",
+      "release_notes": "Alpha de organização integrada a projetos HeartSpace."
     },
+    {
+  	  "app_id": "tasks",
+  	  "display_name": "Tasks",
+  	  "version": "0.8.0.alpha.1",
+  	  "platform": "windows-x86_64",
+  	  "entrypoint": "tasks/tasks.exe",
+  	  "minimum_hub_version": "0.8.0-alpha.3",
+  	  "artifact_types": ["task", "sprint"],
+  	  "capabilities": ["project.read", "task.write"],
+  	  "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/tasks-v0.8.0.alpha.1/tasks-windows-x86_64-v0.8.0.alpha.1.zip",
+  	  "package_size_bytes": 65214731,
+  	  "sha256": "cebe5040a2094600a63809b75e14af70d6ee42276a5edb8569975c776bde28be",
+  	  "release_notes": "Alpha de organização integrada a projetos HeartSpace."
+  	}
     {
       "app_id": "travels",
       "display_name": "Travels",
