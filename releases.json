@@ -96,7 +96,7 @@
   	  "package_size_bytes": 65214731,
   	  "sha256": "cebe5040a2094600a63809b75e14af70d6ee42276a5edb8569975c776bde28be",
   	  "release_notes": "Alpha de organização integrada a projetos HeartSpace."
-  	}
+  	},
     {
       "app_id": "travels",
       "display_name": "Travels",
