@@ -1,102 +1,156 @@
 {
   "releases": [
     {
-  	  "app_id": "canvas",
-  	  "display_name": "Canvas",
-  	  "version": "0.9.0-qp.1",
-  	  "platform": "linux-x86_64",
-  	  "entrypoint": "canvas/canvas.x86_64",
-  	  "minimum_hub_version": "0.8.0-alpha.3",
-  	  "artifact_types": ["sprite", "animation", "rig"],
-  	  "capabilities": ["project.read", "artifact.write", "asset.read", "asset.write"],
-  	  "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/canvas-v0.9.0.qp.1/canvas-linux-x86_64-v0.9.0.qp.1.zip",
-  	  "package_size_bytes": 30957921,
-  	  "sha256": "684cbd9d20c626394af3d88411bbd4c4058b745b8d7a6646cc576f3ee47aeab1",
-  	  "release_notes": "Primeira alpha de integração Canvas + Beats + States."
-  	},
+      "app_id": "canvas",
+      "display_name": "Canvas",
+      "version": "0.9.0-qp.1",
+      "platform": "linux-x86_64",
+      "entrypoint": "canvas/canvas.x86_64",
+      "minimum_hub_version": "0.8.0-alpha.3",
+      "artifact_types": [
+        "sprite",
+        "animation",
+        "rig"
+      ],
+      "capabilities": [
+        "project.read",
+        "artifact.write",
+        "asset.read",
+        "asset.write"
+      ],
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/canvas-v0.9.0.qp.1/canvas-linux-x86_64-v0.9.0.qp.1.zip",
+      "package_size_bytes": 30957921,
+      "sha256": "684cbd9d20c626394af3d88411bbd4c4058b745b8d7a6646cc576f3ee47aeab1",
+      "release_notes": "Primeira alpha de integração Canvas + Beats + States."
+    },
     {
-  	  "app_id": "canvas",
-  	  "display_name": "Canvas",
-  	  "version": "0.9.0-qp.1",
-  	  "platform": "windows-x86_64",
-  	  "entrypoint": "canvas/canvas.exe",
-  	  "minimum_hub_version": "0.8.0-alpha.3",
-  	  "artifact_types": ["sprite", "animation", "rig"],
-  	  "capabilities": ["project.read", "artifact.write", "asset.read", "asset.write"],
-  	  "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/canvas-v0.9.0.qp.1/canvas-windows-x86_64-v0.9.0.qp.1.zip",
-  	  "package_size_bytes": 40880444,
-  	  "sha256": "5dd7b8f07ba37603d9b3b108df39b8b481ac4c7921f9de325df6380b51e268ed",
-  	  "release_notes": "Primeira alpha de integração Canvas + Beats + States."
-  	},
+      "app_id": "canvas",
+      "display_name": "Canvas",
+      "version": "0.9.0-qp.1",
+      "platform": "windows-x86_64",
+      "entrypoint": "canvas/canvas.exe",
+      "minimum_hub_version": "0.8.0-alpha.3",
+      "artifact_types": [
+        "sprite",
+        "animation",
+        "rig"
+      ],
+      "capabilities": [
+        "project.read",
+        "artifact.write",
+        "asset.read",
+        "asset.write"
+      ],
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/canvas-v0.9.0.qp.1/canvas-windows-x86_64-v0.9.0.qp.1.zip",
+      "package_size_bytes": 40880444,
+      "sha256": "5dd7b8f07ba37603d9b3b108df39b8b481ac4c7921f9de325df6380b51e268ed",
+      "release_notes": "Primeira alpha de integração Canvas + Beats + States."
+    },
     {
-  	  "app_id": "beats",
-  	  "display_name": "Beats",
-  	  "version": "0.7.0.alpha.1",
-  	  "platform": "linux-x86_64",
-  	  "entrypoint": "beats/beats.x86_64",
-  	  "minimum_hub_version": "0.8.0-alpha.3",
-  	  "artifact_types": ["audio_event", "audio_bank", "audio_parameter"],
-  	  "capabilities": ["project.read", "artifact.write", "asset.read", "asset.write"],
-  	  "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/beats-v0.7.0.alpha.1/beats-linux-x86_64-v0.7.0.alpha.1.zip",
-  	  "package_size_bytes": 40272373,
-  	  "sha256": "d3d9f4ef404969f6d4714db7a4a93541dbed78c44b2afd34f2d71b73acbb17d9",
-  	  "release_notes": "Alpha de eventos, bancos e vínculo com animações."
-  	},
-  	{
-  	  "app_id": "beats",
-  	  "display_name": "Beats",
-  	  "version": "0.7.0.alpha.1",
-  	  "platform": "windows-x86_64",
-  	  "entrypoint": "beats/beats.exe",
-  	  "minimum_hub_version": "0.8.0-alpha.3",
-  	  "artifact_types": ["audio_event", "audio_bank", "audio_parameter"],
-  	  "capabilities": ["project.read", "artifact.write", "asset.read", "asset.write"],
-  	  "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/beats-v0.7.0.alpha.1/beats-windows-x86_64-v0.7.0.alpha.1.zip",
-  	  "package_size_bytes": 50196459,
-  	  "sha256": "7aa80a70a89f28dc3024e68164f6db90baed592774ee0e389f8cb7ccdc39858d",
-  	  "release_notes": "Alpha de eventos, bancos e vínculo com animações."
-  	},
+      "app_id": "beats",
+      "display_name": "Beats",
+      "version": "0.7.0.alpha.1",
+      "platform": "linux-x86_64",
+      "entrypoint": "beats/beats.x86_64",
+      "minimum_hub_version": "0.8.0-alpha.3",
+      "artifact_types": [
+        "audio_event",
+        "audio_bank",
+        "audio_parameter"
+      ],
+      "capabilities": [
+        "project.read",
+        "artifact.write",
+        "asset.read",
+        "asset.write"
+      ],
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/beats-v0.7.0.alpha.1/beats-linux-x86_64-v0.7.0.alpha.1.zip",
+      "package_size_bytes": 40272373,
+      "sha256": "d3d9f4ef404969f6d4714db7a4a93541dbed78c44b2afd34f2d71b73acbb17d9",
+      "release_notes": "Alpha de eventos, bancos e vínculo com animações."
+    },
     {
-  	  "app_id": "states",
-  	  "display_name": "States",
-  	  "version": "0.4.0.alpha.1",
-  	  "platform": "linux-x86_64",
-  	  "entrypoint": "states/states.x86_64",
-  	  "minimum_hub_version": "0.8.0-alpha.3",
-  	  "artifact_types": ["state_machine", "state_graph"],
-  	  "capabilities": ["project.read", "artifact.write"],
-  	  "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/states-v0.4.0.alpha.1/states-linux-x86_64-v0.4.0.alpha.1.zip",
-  	  "package_size_bytes": 28388039,
-  	  "sha256": "bd0b64c3f3ea214c381f2f33c1957a348b4020f61fbacdeaf346167126997c38",
-  	  "release_notes": "Alpha de state machines vinculadas aos artefatos do Canvas e Beats."
-  	},
+      "app_id": "beats",
+      "display_name": "Beats",
+      "version": "0.7.0.alpha.1",
+      "platform": "windows-x86_64",
+      "entrypoint": "beats/beats.exe",
+      "minimum_hub_version": "0.8.0-alpha.3",
+      "artifact_types": [
+        "audio_event",
+        "audio_bank",
+        "audio_parameter"
+      ],
+      "capabilities": [
+        "project.read",
+        "artifact.write",
+        "asset.read",
+        "asset.write"
+      ],
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/beats-v0.7.0.alpha.1/beats-windows-x86_64-v0.7.0.alpha.1.zip",
+      "package_size_bytes": 50196459,
+      "sha256": "7aa80a70a89f28dc3024e68164f6db90baed592774ee0e389f8cb7ccdc39858d",
+      "release_notes": "Alpha de eventos, bancos e vínculo com animações."
+    },
+    {
+      "app_id": "states",
+      "display_name": "States",
+      "version": "0.4.0.alpha.1",
+      "platform": "linux-x86_64",
+      "entrypoint": "states/states.x86_64",
+      "minimum_hub_version": "0.8.0-alpha.3",
+      "artifact_types": [
+        "state_machine",
+        "state_graph"
+      ],
+      "capabilities": [
+        "project.read",
+        "artifact.write"
+      ],
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/states-v0.4.0.alpha.1/states-linux-x86_64-v0.4.0.alpha.1.zip",
+      "package_size_bytes": 28388039,
+      "sha256": "bd0b64c3f3ea214c381f2f33c1957a348b4020f61fbacdeaf346167126997c38",
+      "release_notes": "Alpha de state machines vinculadas aos artefatos do Canvas e Beats."
+    },
     {
       "app_id": "tasks",
       "display_name": "Tasks",
       "version": "0.8.0.alpha.1",
       "platform": "linux-x86_64",
       "entrypoint": "tasks/tasks.x86_64",
-      "artifact_types": ["tasks.project", "tasks.task"],
-      "capabilities": ["project.read", "task.write"],
+      "artifact_types": [
+        "tasks.project",
+        "tasks.task"
+      ],
+      "capabilities": [
+        "project.read",
+        "task.write"
+      ],
       "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/tasks-v0.8.0.alpha.1/tasks-linux-x86_64-v0.8.0.alpha.1.zip",
       "package_size_bytes": 58050784,
       "sha256": "26ceaab337bdc9c8c57a0c98726a3c5b952191d1ad331994d95599b087757702",
       "release_notes": "Alpha de organização integrada a projetos HeartSpace."
     },
     {
-  	  "app_id": "tasks",
-  	  "display_name": "Tasks",
-  	  "version": "0.8.0.alpha.1",
-  	  "platform": "windows-x86_64",
-  	  "entrypoint": "tasks/tasks.exe",
-  	  "minimum_hub_version": "0.8.0-alpha.3",
-  	  "artifact_types": ["task", "sprint"],
-  	  "capabilities": ["project.read", "task.write"],
-  	  "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/tasks-v0.8.0.alpha.1/tasks-windows-x86_64-v0.8.0.alpha.1.zip",
-  	  "package_size_bytes": 65214731,
-  	  "sha256": "cebe5040a2094600a63809b75e14af70d6ee42276a5edb8569975c776bde28be",
-  	  "release_notes": "Alpha de organização integrada a projetos HeartSpace."
-  	},
+      "app_id": "tasks",
+      "display_name": "Tasks",
+      "version": "0.8.0.alpha.1",
+      "platform": "windows-x86_64",
+      "entrypoint": "tasks/tasks.exe",
+      "minimum_hub_version": "0.8.0-alpha.3",
+      "artifact_types": [
+        "task",
+        "sprint"
+      ],
+      "capabilities": [
+        "project.read",
+        "task.write"
+      ],
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/tasks-v0.8.0.alpha.1/tasks-windows-x86_64-v0.8.0.alpha.1.zip",
+      "package_size_bytes": 65214731,
+      "sha256": "cebe5040a2094600a63809b75e14af70d6ee42276a5edb8569975c776bde28be",
+      "release_notes": "Alpha de organização integrada a projetos HeartSpace."
+    },
     {
       "app_id": "travels",
       "display_name": "Travels",
@@ -107,8 +161,64 @@
       "package_size_bytes": 28751414,
       "sha256": "08e2ed22cd69d1df39544077522a7d1825fbb11bdc2cc4bb785c553640845072",
       "minimum_hub_version": "0.8.0-alpha.7",
-      "artifact_types": ["map", "tileset", "world_layout", "map_export"],
-      "capabilities": ["project.read", "artifact.write", "asset.read", "asset.write"]
+      "artifact_types": [
+        "map",
+        "tileset",
+        "world_layout",
+        "map_export"
+      ],
+      "capabilities": [
+        "project.read",
+        "artifact.write",
+        "asset.read",
+        "asset.write"
+      ]
+    },
+    {
+      "app_id": "docs",
+      "display_name": "Docs",
+      "version": "0.8.1.alpha.1",
+      "platform": "linux-x86_64",
+      "entrypoint": "docs/docs.x86_64",
+      "minimum_hub_version": "0.9.0",
+      "artifact_types": [
+        "document",
+        "gdd",
+        "knowledge_base"
+      ],
+      "capabilities": [
+        "project.read",
+        "artifact.write",
+        "asset.read",
+        "asset.write"
+      ],
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/docs-v0.8.1.alpha.1/docs-linux-x86_64-v0.8.1-alpha.1.zip",
+      "package_size_bytes": 30302633,
+      "sha256": "ff527797b0821aa5baa27de67fae4e2b9e1d85aded5756a4040bf442d1d78ba6",
+      "release_notes": "HeartSpace Docs 0.8.1.alpha.1. Consulte as notas da release."
+    },
+    {
+      "app_id": "docs",
+      "display_name": "Docs",
+      "version": "0.8.1.alpha.1",
+      "platform": "windows-x86_64",
+      "entrypoint": "docs/docs.exe",
+      "minimum_hub_version": "0.9.0",
+      "artifact_types": [
+        "document",
+        "gdd",
+        "knowledge_base"
+      ],
+      "capabilities": [
+        "project.read",
+        "artifact.write",
+        "asset.read",
+        "asset.write"
+      ],
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/docs-v0.8.1.alpha.1/docs-windows-x86_64-v0.8.1-alpha.1.zip",
+      "package_size_bytes": 41039853,
+      "sha256": "03cf1c4169b323edc546b5fd4e08faf8057beddb8a159af2b7f4ea34cb6b839b",
+      "release_notes": "HeartSpace Docs 0.8.1.alpha.1. Consulte as notas da release."
     }
   ]
 }
