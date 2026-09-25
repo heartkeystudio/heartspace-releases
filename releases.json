@@ -177,7 +177,7 @@
     {
       "app_id": "docs",
       "display_name": "Docs",
-      "version": "0.8.1.alpha.1",
+      "version": "0.8.1.alpha.2",
       "platform": "linux-x86_64",
       "entrypoint": "docs/docs.x86_64",
       "minimum_hub_version": "0.9.0",
@@ -192,15 +192,15 @@
         "asset.read",
         "asset.write"
       ],
-      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/docs-v0.8.1.alpha.1/docs-linux-x86_64-v0.8.1-alpha.1.zip",
-      "package_size_bytes": 30302633,
-      "sha256": "ff527797b0821aa5baa27de67fae4e2b9e1d85aded5756a4040bf442d1d78ba6",
-      "release_notes": "HeartSpace Docs 0.8.1.alpha.1. Consulte as notas da release."
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/docs-v0.8.1.alpha.2/docs-linux-x86_64-v0.8.1-alpha.2.zip",
+      "package_size_bytes": 30302915,
+      "sha256": "288aae44240f84ce7af05310a1f877be62f2fda7e764c2971c3f6cda52ef0ac9",
+      "release_notes": "HeartSpace Docs 0.8.1.alpha.2. Consulte as notas da release."
     },
     {
       "app_id": "docs",
       "display_name": "Docs",
-      "version": "0.8.1.alpha.1",
+      "version": "0.8.1.alpha.2",
       "platform": "windows-x86_64",
       "entrypoint": "docs/docs.exe",
       "minimum_hub_version": "0.9.0",
@@ -215,10 +215,10 @@
         "asset.read",
         "asset.write"
       ],
-      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/docs-v0.8.1.alpha.1/docs-windows-x86_64-v0.8.1-alpha.1.zip",
-      "package_size_bytes": 41039853,
-      "sha256": "03cf1c4169b323edc546b5fd4e08faf8057beddb8a159af2b7f4ea34cb6b839b",
-      "release_notes": "HeartSpace Docs 0.8.1.alpha.1. Consulte as notas da release."
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/docs-v0.8.1.alpha.2/docs-windows-x86_64-v0.8.1-alpha.2.zip",
+      "package_size_bytes": 41040119,
+      "sha256": "42e85c3d680dc7e061f1d9e5c36840f5efd4d28177cf0d172d3b4b7569edefed",
+      "release_notes": "HeartSpace Docs 0.8.1.alpha.2. Consulte as notas da release."
     }
   ]
 }
