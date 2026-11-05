@@ -3,14 +3,15 @@
     {
       "app_id": "canvas",
       "display_name": "Canvas",
-      "version": "0.9.0-qp.1",
+      "version": "0.9.12",
       "platform": "linux-x86_64",
       "entrypoint": "canvas/canvas.x86_64",
       "minimum_hub_version": "0.8.0-alpha.3",
       "artifact_types": [
         "sprite",
         "animation",
-        "rig"
+        "rig",
+        "hrig"
       ],
       "capabilities": [
         "project.read",
@@ -18,22 +19,23 @@
         "asset.read",
         "asset.write"
       ],
-      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/canvas-v0.9.0.qp.1/canvas-linux-x86_64-v0.9.0.qp.1.zip",
-      "package_size_bytes": 30957921,
-      "sha256": "684cbd9d20c626394af3d88411bbd4c4058b745b8d7a6646cc576f3ee47aeab1",
-      "release_notes": "Primeira alpha de integração Canvas + Beats + States."
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/canvas-v0.9.12/canvas-linux-x86_64-v0.9.12.zip",
+      "package_size_bytes": 32870686,
+      "sha256": "97efa5d313fb558a90aeba29dc5673378d59ce6fb68fa82c7cb591ba80387526",
+      "release_notes": "HeartSpace Canvas 0.9.12. Consulte as notas da release."
     },
     {
       "app_id": "canvas",
       "display_name": "Canvas",
-      "version": "0.9.0-qp.1",
+      "version": "0.9.12",
       "platform": "windows-x86_64",
       "entrypoint": "canvas/canvas.exe",
       "minimum_hub_version": "0.8.0-alpha.3",
       "artifact_types": [
         "sprite",
         "animation",
-        "rig"
+        "rig",
+        "hrig"
       ],
       "capabilities": [
         "project.read",
@@ -41,10 +43,10 @@
         "asset.read",
         "asset.write"
       ],
-      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/canvas-v0.9.0.qp.1/canvas-windows-x86_64-v0.9.0.qp.1.zip",
-      "package_size_bytes": 40880444,
-      "sha256": "5dd7b8f07ba37603d9b3b108df39b8b481ac4c7921f9de325df6380b51e268ed",
-      "release_notes": "Primeira alpha de integração Canvas + Beats + States."
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/canvas-v0.9.12/canvas-windows-x86_64-v0.9.12.zip",
+      "package_size_bytes": 43685842,
+      "sha256": "5528c1dd8de611c15b00b4e2d8a2ad71a20bd5710f4f2e5533fd42b768bb9e10",
+      "release_notes": "HeartSpace Canvas 0.9.12. Consulte as notas da release."
     },
     {
       "app_id": "beats",
