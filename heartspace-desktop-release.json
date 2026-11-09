@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "product_id": "heartspace-desktop",
+  "display_name": "HeartSpace",
+  "version": "0.1.0-alpha.1",
+  "channel": "alpha",
+  "release_url": "https://github.com/heartkeystudio/heartspace-releases/releases/tag/desktop-v0.1.0-alpha.1",
+  "platforms": [
+    {
+      "platform": "linux-x86_64",
+      "package_url": "https://github.com/heartkeystudio/heartspace-releases/releases/download/desktop-v0.1.0-alpha.1/HeartSpace-0.1.0-alpha.1-linux-x86_64.tar.gz",
+      "package_size_bytes": 71132922,
+      "sha256": "78a11e6cb2c8d7768a8b68ebc1e353e2f13d3818bc3b1235eb78e4e1d1f421b1",
+      "format": "tar.gz",
+      "entrypoint": "HeartSpace",
+      "tested_on": [
+        "Fedora 44 KDE Plasma"
+      ],
+      "installation_mode": "portable"
+    }
+  ]
+}
